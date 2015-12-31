@@ -180,6 +180,7 @@ func main() {
 
 	if *list {
 		displayCows()
+		os.Exit(0)
 	}
 
 	inputs := readInput(flag.Args())
