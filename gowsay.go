@@ -72,6 +72,16 @@ func readInput(args []string) []string {
 		for s.Scan() {
 			tmps = append(tmps, s.Text())
 		}
+
+		if s.Err() != nil {
+			log.Printf("failed reading stdin: %s\n", s.Err().Error())
+			os.Exit(1)
+		}
+
+		if len(tmps) == 0{
+			fmt.Println("Error: no input from stdin")
+			os.Exit(1)
+		}
 	} else {
 		tmps = args
 	}
