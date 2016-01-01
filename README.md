@@ -6,6 +6,12 @@
 
 ![gowsay](image/gowsay.png)
 
+## Installation
+
+```
+% go get -u github.com/syohex/gowsay
+```
+
 ## Usage
 
 ```
