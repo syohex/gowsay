@@ -36,3 +36,7 @@ Usage of gowsay:
 gowsay supports full-width chracters such as Hiragana, Kanji.
 
 ![gowsay-multibyte](image/gowsay-multibyte.png)
+
+## License
+
+This software is licensed under GPL version 3.
